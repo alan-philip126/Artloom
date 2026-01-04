@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ChevronLeft } from 'lucide-react';
 import Header from '../components/Header';
-import { products } from '../data/productsData';
+import { products } from '../Data/productsData';
 
 function ProductDetailsPage({ product, onBack, onProductClick }) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

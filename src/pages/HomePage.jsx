@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import BannerCarousel from '../components/BannerCarousel';
 import ProductCard from '../components/ProductCard';
 import Footer from '../components/Footer';
-import { products } from '../data/productsData';
+import { products } from '../Data/productsData';
 
 function HomePage({ onProductClick }) {
   return (
